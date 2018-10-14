@@ -1,0 +1,37 @@
+	question 1
+		
+	grep -i "^z.*" cities.txt
+	
+	question 2
+		
+	grep -i ".gan$" cities.txt
+	
+	question 3
+		
+	egrep -i "^a.*|^e.*|^d.*" cities.txt
+	
+	question 4
+		
+	grep -i "^.ar.*" cities.txt
+	
+	question 5
+		
+	grep -i "^[^c]" cities.txt
+		
+	question 6
+	
+	
+	
+	question 7
+		
+	grep -c -i "^b.*" cities.txt
+	
+	question 8
+		
+	grep -c -r -i "d" cities.txt
+	
+	question 9
+				
+	
+	question 10
+	
