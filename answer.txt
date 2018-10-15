@@ -8,7 +8,7 @@
 	
 	question 3
 		
-	egrep -i "^a.*|^e.*|^d.*" cities.txt
+	grep -E -i "^a.*|^e.*|^d.*" cities.txt
 	
 	question 4
 		
@@ -21,17 +21,18 @@
 	question 6
 	
 	
-	
+	grep -E -i "^[^ ]{14,}$" cities.txt
 	question 7
 		
-	grep -c -i "^b.*" cities.txt
+	grep -c "^B.*" cities.txt
 	
 	question 8
 		
-	grep -c -r -i "d" cities.txt
+	grep -c "d" cities.txt
 	
 	question 9
-				
+
+	grep -E "(.)(\1)$" cities.txt			
 	
 	question 10
-	
+	grep -E -i "^(.)(.)*(\2)(\1)$" cities.txt
